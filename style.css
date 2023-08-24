@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very-dark-blue-mainBG: hsl(217, 54%, 11%);
+  --Very-darkblue-cardBG: hsl(216, 50%, 16%);
+  --Very-darkblue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--Very-dark-blue-mainBG);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: calc(100vh - 1px);
+  font-size: 18px;
+}
+
+.container {
+  background-color: var(--Very-darkblue-cardBG);
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px 10px 10px 10px;
+  border-radius: 20px;
+}
+
+.nft {
+  width: 330px;
+  border-radius: 10px;
+  background: none;
+}
+
+.nft:hover {
+  cursor: pointer;
+}
+
+.nftview {
+  position: absolute;
+  display: none;
+  margin-left: -px;
+  margin-top: -334.5px;
+  display: none;
+  width: 330px;
+  padding: 135px;
+  background-color: var(--Cyan);
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+.top:hover .nftview {
+  cursor: pointer;
+  background-color: aqua;
+  background-repeat: round;
+  display: block;
+}
+
+.top2 {
+  padding-left: 25px;
+  color: var(--Soft-blue);
+  font-size: 20px;
+}
+
+.top2 h3 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: var(--White);
+}
+
+.top2 h3:hover {
+  cursor: pointer;
+  color: var(--Cyan);
+}
+.top2 p {
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+.top3 {
+  width: 330px;
+  padding-bottom: 40px;
+}
+
+.top3 h4 span {
+  color: var(--Soft-blue);
+}
+
+.top3 h4 {
+  color: var(--Cyan);
+}
+
+.eth {
+  width: 13px;
+  margin-right: 7px;
+}
+
+.clock {
+  padding-left: 120px;
+  padding-right: 10px;
+}
+
+.line {
+  display: block;
+  width: 330px;
+  border-top: 2px solid;
+  border-color: var(--Very-darkblue-line);
+  padding-bottom: 20px;
+}
+
+.top4 {
+  width: 320px;
+  color: var(--White);
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+}
+.top4 img {
+  width: 40px;
+  border: 1px solid var(--White);
+  border-radius: 50px;
+}
+
+.top4 p {
+  padding-left: 20px;
+}
+
+.top4 p:hover {
+  cursor: pointer;
+  color: var(--Cyan);
+}
+
+.top4 span {
+  color: var(--Soft-blue);
+  padding-right: 6px;
+}
+
+.attribution {
+  color: var(--White);
+  padding-top: 40px;
+}
